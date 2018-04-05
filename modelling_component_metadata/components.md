@@ -120,12 +120,6 @@ The following signs indicate that a given component may **not** be a suitable te
 
 ### Value vocabularies {#value-vocabularies}
 
-* [ ] Reuse existing \(CLAVAS\) vocabularies.
-* [ ] Open vs closed vocabularies
-* [ ] Importing CLAVAS vocabularies
-* [ ] Discuss general vs specific vocabularies
-* [ ] ...
-
 ###### C12: Prefer controlled vocabularies {#c12}
 
 \[priority: medium\] \[_TODO: check: CMDValidate_\]
@@ -142,9 +136,13 @@ Furthermore, the CLARIN Component Registry offers the option to provide patterns
 
 \[priority: medium\] \[_TODO: check: CMDValidate_\]
 
+\]
+
 | Note by Susanne |
 | :--- |
 | "Provide a concept link for each vocabulary item" |
+
+\]
 
 A vocabulary included in CMDI might consist of a link to an external vocabulary \(in general a CLAVAS vocabulary\) or an enumeration of vocabulary items. In case of the latter, add a Concept Link to each item of the proposed vocabulary to determine its semantics \(see [C14](#c14)\).
 
@@ -170,7 +168,7 @@ In CMDI the semantics of all building blocks, e.g., components, elements and val
 
 | Note by Twan |
 | :--- |
-| I agree that this is high priority but as its quite hard to get new concepts in the CCR (currently), a lof of people will end up violating this too some degree |
+| I agree that this is high priority but as its quite hard to get new concepts in the CCR \(currently\), a lof of people will end up violating this too some degree |
 
 As a basis the semantics of most values in a metadata record should be made explicit. This is done by adding concept links to both elements and attributes. And where possible to the value itself, i.e., adding concept links to closed/open vocabulary items.
 
